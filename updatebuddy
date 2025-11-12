@@ -1,0 +1,9 @@
+cd ~/klipper
+git pull
+
+make clean
+make
+
+make flash FLASH_DEVICE=0483:df11
+
+FIRMWARE_RESTART
